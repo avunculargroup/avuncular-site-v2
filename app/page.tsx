@@ -5,14 +5,14 @@ import Section from "@/app/components/section";
 
 const BUSINESSES = [
   {
-    name: "Northwind Facilities",
-    tagline: "Integrated facilities services for civic campuses.",
+    name: "Bitcoin Treasury Solutions",
+    tagline: "Training and Consulting for Businesses.",
     description:
       "Long-horizon contracts that blend hospitality, sustainability, and reliable trade coverage for public institutions.",
   },
   {
-    name: "Harbor & Field",
-    tagline: "Applied research studio for practical tools.",
+    name: "Aussie Bitcoin Merchants",
+    tagline: "Onboard small retailers and get them on the map.",
     description:
       "Designs bespoke software and playbooks that help underdog operators scale responsibly without losing fidelity.",
   },
@@ -20,10 +20,10 @@ const BUSINESSES = [
 
 const PIPELINE = [
   {
-    name: "Working Title",
-    tagline: "Something new is taking shape.",
+    name: "BoltBar",
+    tagline: "The POS that loves to save.",
     description:
-      "A quiet initiative focused on resilient caregiving services. Stay tuned.",
+      "A Point of Sale application that leverages both traditional payments and bitcoin.",
   },
 ];
 
@@ -35,11 +35,10 @@ export default function Home() {
 
         <Section title="About">
           <p className="max-w-2xl text-sm leading-relaxed text-ink-muted">
-            Avuncular Group brings independent operators under one warm roof. We
-            steward businesses that are grounded, human, and quietly
+            Avuncular Group brings local talent and skill under one warm roof. We
+            grow businesses that are grounded, local, and quietly
             compounding—balancing patient capital with pragmatic execution. Each
-            venture shares a bias toward service, craftsmanship, and durable
-            partnerships.
+            project shares a bias toward service, craftsmanship, and open source software.
           </p>
         </Section>
 
