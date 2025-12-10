@@ -6,7 +6,7 @@ export default function Header() {
       </p>
       <div className="space-y-3">
         <h1 className="text-4xl font-semibold text-ink">
-          Practical ventures with a human centre of gravity.
+        Rethinking value, trust and the future
         </h1>
         <p className="text-sm text-ink-muted max-w-xl leading-relaxed">
           We operate enduring businesses that compound by means of
