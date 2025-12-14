@@ -14,7 +14,7 @@ const BUSINESSES = [
     name: "Aussie Bitcoin Merchants",
     tagline: "Onboard small retailers and get them on the map.",
     description:
-      "Designs bespoke software and playbooks that help underdog operators scale responsibly without losing fidelity.",
+      "Helping small Australian retailers onboard to the Bitcoin network by providing practical resources, guidance, and support, along with an easy way to add their business to BTC Map through OpenStreetMap.",
   },
 ];
 
