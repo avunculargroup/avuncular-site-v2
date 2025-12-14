@@ -8,7 +8,7 @@ const BUSINESSES = [
     name: "Bitcoin Treasury Solutions",
     tagline: "Training and Consulting for Businesses.",
     description:
-      "Practical education, tailored coaching, and strategic consulting to help Australian businesses and professionals assess, adopt, manage, and even accept Bitcoin within their treasury and payment operations.",
+      "Structured education, tailored coaching, and strategic consulting to help Australian businesses and professionals assess, adopt, manage, and even accept Bitcoin within their treasury and payment operations.",
   },
   {
     name: "Aussie Bitcoin Merchants",
