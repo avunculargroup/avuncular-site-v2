@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   title: "Avuncular Group",
   description:
     "A thoughtful collective building practical, human-focused ventures.",
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    title: "Avuncular",
+  },
 };
 
 export default function RootLayout({
