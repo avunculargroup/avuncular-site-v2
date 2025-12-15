@@ -10,10 +10,36 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Avuncular Group",
+  title: {
+    default: "Avuncular Group",
+    template: "%s | Avuncular Group",
+  },
   description:
     "A thoughtful collective building practical, human-focused ventures.",
   metadataBase: new URL("https://avunculargroup.com"),
+  alternates: {
+    canonical: "/",
+  },
+  applicationName: "Avuncular Group",
+  authors: [{ name: "Avuncular Group", url: "https://avunculargroup.com" }],
+  creator: "Avuncular Group",
+  publisher: "Avuncular Group",
+  category: "Business",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  icons: {
+    icon: [{ url: "/favicon.ico" }],
+    apple: [{ url: "/apple-icon.png" }],
+  },
   openGraph: {
     title: "Avuncular Group",
     description:
@@ -21,6 +47,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "/",
     siteName: "Avuncular Group",
+    locale: "en_AU",
     images: [
       {
         url: "/ag-preview.png",

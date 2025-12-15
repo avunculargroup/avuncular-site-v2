@@ -27,10 +27,31 @@ const PIPELINE = [
   },
 ];
 
+const ORGANIZATION_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Avuncular Group",
+  url: "https://avunculargroup.com/",
+  logo: "https://avunculargroup.com/icon.png",
+  description: "A thoughtful collective building practical, human-focused ventures.",
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      email: "info@avunculargroup.com",
+      availableLanguage: ["en"],
+    },
+  ],
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-canvas text-ink">
       <div className="mx-auto max-w-6xl space-y-32 px-6 py-16 lg:px-8">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(ORGANIZATION_JSON_LD) }}
+        />
         <Header />
 
         <Section title="About">
@@ -67,7 +88,12 @@ export default function Home() {
                 typically reply within two business days.
               </p>
               <div className="text-xs text-ink-muted">
-                info@avunculargroup.com
+                <a
+                  href="mailto:info@avunculargroup.com"
+                  className="underline underline-offset-4 hover:text-ink"
+                >
+                  info@avunculargroup.com
+                </a>
               </div>
             </div>
             <ContactForm />
